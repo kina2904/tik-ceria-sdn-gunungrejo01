@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIK Ceria - Belajar TIK untuk SD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><img src="images/logo-kkn-mas-gunungrejo.jpeg" alt="Logo KKN MAS Gunungrejo"><div><div class="logo">💻 TIK CERIA</div><small>Belajar TIK Jadi Menyenangkan!</small></div></div>
+    <button id="themeBtn" aria-label="Ganti tema">🌙</button>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#materi">Materi</a>
+    <a href="#video">Video</a>
+    <a href="#kuis">Kuis</a>
+  </nav>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div>
+        <p class="badge">Media Pembelajaran TIK SD</p>
+        <h1>Belajar TIK Jadi <span>Menyenangkan!</span> 🎉</h1>
+        <p>Yuk kenali laptop, keyboard, mouse, dan cara menggunakan teknologi dengan aman dan bijak.</p>
+        <a class="btn" href="#materi">Mulai Belajar 🚀</a>
+      </div>
+      <div class="hero-icon">💻</div>
+    </section>
+
+    <section class="identity">
+      <div class="identity-logo"><img src="images/logo-kkn-mas.jpeg" alt="Logo KKN MAS"></div>
+      <div>
+        <h2>Media Pembelajaran TIK Kelas 3</h2>
+        <p><strong>SDN Gunungrejo 01</strong></p>
+        <p>Dibuat oleh <strong>Zakinah Mawadda</strong> — Universitas Muhammadiyah Bone</p>
+        <p>Perwakilan <strong>KKN MAS Kelompok 67</strong></p>
+      </div>
+    </section>
+    <section id="materi">
+      <h2>📚 Materi TIK</h2>
+      <p class="section-intro">Pilih materi yang ingin kamu pelajari.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">💻</div>
+          <h3>Mengenal Laptop</h3>
+          <p>Laptop adalah komputer yang dapat dibawa dan digunakan untuk belajar, bekerja, serta membuat berbagai tugas.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⌨️</div>
+          <h3>Keyboard</h3>
+          <p>Keyboard digunakan untuk mengetik huruf, angka, simbol, dan memberikan perintah pada komputer.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🖱️</div>
+          <h3>Mouse & Touchpad</h3>
+          <p>Mouse atau touchpad membantu kita menggerakkan penunjuk, memilih, membuka, dan memindahkan objek.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🔌</div>
+          <h3>Menyalakan & Mematikan</h3>
+          <p>Gunakan tombol daya untuk menyalakan laptop. Untuk mematikan, gunakan menu Shut Down agar perangkat aman.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Keamanan Digital</h3>
+          <p>Jangan membagikan kata sandi, data pribadi, atau informasi penting kepada orang lain sembarangan.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⏰</div>
+          <h3>Bijak Menggunakan TIK</h3>
+          <p>Gunakan teknologi untuk belajar dan hal positif. Beristirahatlah secara teratur setelah menggunakan perangkat.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="video" class="video-section">
+      <h2>🎬 Video Pembelajaran</h2>
+      <p class="section-intro">Masukkan video pembelajaran buatanmu ke folder <b>video</b>, lalu ubah nama file menjadi <b>pembelajaran-tik.mp4</b>.</p>
+      <div class="video-box">
+        <video controls>
+          <source src="video/pembelajaran-tik.mp4" type="video/mp4">
+          Browser kamu belum mendukung video.
+        </video>
+        <p>Jika video belum tersedia, kamu tetap bisa belajar melalui materi dan kuis di bawah.</p>
+      </div>
+    </section>
+
+    <section id="kuis">
+      <h2>🎮 Kuis TIK</h2>
+      <p class="section-intro">Jawab semua pertanyaan, kemudian lihat nilaimu.</p>
+      <div id="quiz"></div>
+      <button id="submitQuiz" class="btn">Lihat Nilai 🏆</button>
+      <div id="result" class="result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logos">
+      <img src="images/logo-kkn-mas.jpeg" alt="Logo KKN MAS">
+      <img src="images/logo-kkn-mas-gunungrejo.jpeg" alt="Logo KKN MAS Gunungrejo">
+    </div>
+    <p><b>TIK Ceria</b> — Media Pembelajaran TIK untuk Siswa-Siswi Kelas 3 SDN Gunungrejo 01</p>
+    <p>Dibuat oleh <b>Zakinah Mawadda</b> • Universitas Muhammadiyah Bone • KKN MAS Kelompok 67</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
